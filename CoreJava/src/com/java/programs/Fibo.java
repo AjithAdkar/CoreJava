@@ -1,6 +1,6 @@
 package com.java.programs;
 
-public class Factorial {
+public class Fibo {
 	static int r=0;
 	static int s=1;
 //	recursion use more resource.
@@ -27,7 +27,7 @@ public class Factorial {
 		  }
 	  }
 	public static void main(String[] args) {
-		Factorial f= new Factorial();
+		Fibo f= new Fibo();
 		f.fact(10);
 		f.facto(10);
 	}
