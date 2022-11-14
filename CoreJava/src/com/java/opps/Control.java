@@ -3,10 +3,8 @@ package com.java.opps;
 public class Control {
 
 	public static void main(String[] args) {
-System.out.println("Hi there \n create dog obj as nick");
- Dog nick= new Dog();
- nick.eat();
- nick.name("nick");
+		Dog d= new Dog(1,21);
+		System.out.println(d.eat());
+				
 	}
-
 }
