@@ -1,18 +1,17 @@
 package com.java.opps;
 
 
-public class Animal {
-	int age;
-	public Animal(int age) {
-		 this.age= age;
-	}
+public  class Animal implements Printable {
+	
+	public Animal() {}
 
-	protected Object eat() throws ArrayIndexOutOfBoundsException {
+	final protected Object eat() throws ArrayIndexOutOfBoundsException {
 		System.out.println("All");
 		return null;
 	}
 	public void sleep() {
 		System.out.println("Sleeping");
 	}
+	public void b(){System.out.println("Animal method");}  
+}  
 	
-}
